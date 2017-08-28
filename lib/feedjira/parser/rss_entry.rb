@@ -23,6 +23,7 @@ module Feedjira
       element :"dc:Date", :as => :published
       element :"dcterms:created", :as => :published
 
+      element :image, :as => :image
 
       element :"dcterms:modified", :as => :updated
       element :issued, :as => :published
