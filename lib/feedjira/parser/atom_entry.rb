@@ -14,6 +14,7 @@ module Feedjira
 
       element :"media:content", :as => :image, :value => :url
       element :enclosure, :as => :image, :value => :href
+      element :image, :as => :image
 
       element :published
       element :id, :as => :entry_id
