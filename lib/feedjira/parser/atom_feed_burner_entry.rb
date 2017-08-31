@@ -12,6 +12,7 @@ module Feedjira
       element :"feedburner:origLink", :as => :url
       element :summary
       element :content
+      element :image, :as => :image
 
       element :"media:content", :as => :image, :value => :url
       element :enclosure, :as => :image, :value => :href

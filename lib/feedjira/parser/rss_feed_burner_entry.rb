@@ -15,6 +15,7 @@ module Feedjira
         element :author, :as => :author
         element :"content:encoded", :as => :content
         element :description, :as => :summary
+        element :image, :as => :image
 
         element :"media:content", :as => :image, :value => :url
         element :enclosure, :as => :image, :value => :url
